@@ -58,6 +58,13 @@ body {
     width: 100%;
 }
 
+@media screen and (max-width: 375px) {
+    .header-overlay {
+        height: 1070px;
+    
+}
+
+
 .header-content {
     z-index: 4;
     position: relative;
@@ -106,13 +113,6 @@ body {
 @media(max-width: 480px) {
     .line1 {
         bottom: 50px;
-    }
-    
-}
-
-@media(max-width: 375px) {
-    .line1 {
-        bottom: 100px;
     }
     
 }
