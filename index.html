@@ -59,9 +59,9 @@
 
   </ul>
   <h4>Bookmarker Application</h4>
-  <a href="https://chief-executive-officer-wonder-68843.netlify.com/"><img src="https://image.ibb.co/fdWGkm/bookmarker_img.jpg" alt="bookmarker img" border="0" height="300" id="pic1" /></a>
+  <a href="#"><img src="https://image.ibb.co/fdWGkm/bookmarker_img.jpg" alt="bookmarker img" border="0" height="300" id="pic1" /></a>
   <h4>Google Map with Pins</h4>
-  <a href="https://dedious.github.io/googlemap.github.io/"><img src="https://image.ibb.co/gkBoy6/googlemap_project_img.jpg" alt="googlemap project img" border="0" height="300" id="pic2" /></a>
+  <a href="#"><img src="https://image.ibb.co/gkBoy6/googlemap_project_img.jpg" alt="googlemap project img" border="0" height="300" id="pic2" /></a>
   
   <!-- Placeholders for later project showcases
   
@@ -87,20 +87,36 @@
       <li><a href="https://twitter.com/davido08031999"><i class="fa fa-free-code-camp" aria-hidden="true"></i></a><li>  
     </ul>
 
+
   <!-- Contact Form -->
-  <form action="" method="POST" enctype="multipart/form-data">
-    <input name="action" value="submit" type="hidden"> Your name:<br>
-    <input name="name" size="45" type="text" id="name-box"><br><br> Your email:<br>
-    <input name="email" size="45" type="text" id="email-box"><br><br> Your message:<br>
-    <textarea name="message" rows="20" cols="45" id="message-box">
-    </textarea><br>
-    <input value="Send email" type="submit" id="send-email">
-    </form>
+  <div class="contact">
+    <div class="alert">Your message has been sent!</div>
+  <form id="contactForm">
+    <p>
+      <label>Name</label>
+      <input type="text" name="name" id="name" required>
+    </p><br>
+    <p>
+      <label>Email Address</label>
+      <input type="email" name="email" id="email" required>
+    </p>
+    <p class="full">
+      <label>Message</label>
+      <textarea name="message" rows="15" id="message"></textarea>
+    </p>
+    <p class="full">
+      <button type="submit" id="btn-submit">Submit</button>
+    </p>
+  </form>
 </div>
+
+
+</div>
+
 <!-- Footer -->
 <br>
 <p>&copy 2017 David Szczesniak | All Rights Reserved</p>
-</div>
+
 
 <!-- Navbar script -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
@@ -123,5 +139,8 @@
       });
   });
 </script>
+
+<script src="https://www.gstatic.com/firebasejs/4.6.0/firebase.js"></script>
+<script src="main.js"></script>
 </body>
 </html>
