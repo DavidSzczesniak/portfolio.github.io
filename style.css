@@ -450,19 +450,19 @@ nav {
             font-size: 12px;
             width: 320px;
             right: 15px;
-            margin-left: -22px;
+            margin-left: -24px;
        }
     }
 
-    /*
+    
     @media screen and (max-width: 360px) {
         #contact-container {
-            right: 6px;
+            right: 20px;
 
 
         }
     }
-    */
+    
 
     @media screen and (max-width: 320px) {
         #contact-container {
