@@ -450,7 +450,7 @@ nav {
             font-size: 12px;
             width: 320px;
             right: 15px;
-            margin-left: -27px;
+            margin-left: -23px;
        }
     }
 
@@ -458,6 +458,7 @@ nav {
     @media screen and (max-width: 360px) {
         #contact-container {
             right: 14px;
+            margin-left: 4px;
 
 
         }
