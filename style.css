@@ -58,6 +58,12 @@ body {
     width: 100%;
 }
 
+@media(max-width: 375px) {
+    .header-overlay {
+        height: 1050px;
+    }
+}
+
 .header-content {
     z-index: 4;
     position: relative;
@@ -425,23 +431,26 @@ nav {
 
 
    /* Adjusting contact area for mobile devices */
-    
+   
+   /*
    @media screen and (max-width: 384px) {
         #contact-container {
            right: 15px;
 
         }
     }
+    */
    
    @media screen and (max-width: 375px) {
         #contact-container {
             font-size: 12px;
             width: 320px;
-            margin-left: -32px;
+     
 
         }
     }
 
+    /*
     @media screen and (max-width: 360px) {
         #contact-container {
             right: 6px;
@@ -449,12 +458,13 @@ nav {
 
         }
     }
+    */
 
     @media screen and (max-width: 320px) {
         #contact-container {
             width: 300px;
             margin-right: -30px;
-            right: 15px;
+            
 
         }
     }
@@ -491,6 +501,14 @@ nav {
   .social-icons li a {
     width: 20px;
     color: #fff;
+  }
+
+  #email-text {
+      font-size: 14px;
+  }
+
+  .fa-envelope {
+      margin: 5px;
   }
 
   @media screen and (max-width: 375px) {
