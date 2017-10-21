@@ -112,7 +112,7 @@ body {
 
 @media(max-width: 375px) {
     .line1 {
-        bottom: 50px;
+        bottom: 100px;
     }
     
 }
@@ -335,7 +335,7 @@ nav {
 
  @media screen and (max-width: 320px) {
     #pic1, #pic2, #pic3, #pic4, #pic5 {
-        height: 100px;
+        height: 125px;
     }
 }
 
@@ -376,7 +376,6 @@ nav {
      @media screen and (max-width: 375px) {
         #contact-container {
             right: 50px;
-            width: 300px;
             font-size: 12px;
         }
     }
@@ -400,11 +399,6 @@ nav {
        border: solid #fff;
    }
 
-@media screen and (max-width: 375px) {
-    #name-box, #email-box, #message-box {
-        width: 280px;
-    }
-}
 
    /* Social Media */ 
 
@@ -430,7 +424,7 @@ nav {
   }
 
 @media screen and (max-width: 375px) {
-    #name-box, #email-box, #message-box {
+    .social-icons li a {
         width: 15px;
     }
 }
