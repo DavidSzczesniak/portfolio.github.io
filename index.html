@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon2.ico">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  </head>
+<body>
+    
+<!-- Nav Bar -->
+  <nav class="clearfix" id="navbar">
+        <ul class="clearfix">
+          <li><a href="#navbar">Home</a></li>
+          <li><a href="#about-title">About</a></li>
+          <li><a href="#work-title">Work</a></li>
+          <li><a href="#contact-title">Conact</a></li>
+          </ul>
+        <a href="#" id="pull">Menu</a>
+      </nav>
+
+<!-- Image, Overlay and text -->
+  <header class="v-header container">
+<div class="fullscreen-video-wrap">
+<img src="https://images.unsplash.com/photo-1478728073286-db190d3d8ce6?w=1868" >   
+</div>
+<div class="header-overlay"></div> 
+<div class="header-content">
+ <h1>Portfolio of <strong>David Szczesniak</strong></h1>
+ <h3>Software Developer from England</h3>
+  </div>     
+</header>
+
+<!-- About -->
+<hr class="line1">
+<div class="container">
+<h2 id="about-title">About</h2>
+  <p>My name is David Szczesniak. I am an 18-year-old software developer/web designer from Dunstable, England. I've had a strong interest in design nearly my whole life, which has culminated into graphic design and programming over the recent years. Since I started working on UI/UX design, I have learned to create professional, modern and sleek desings. Having an eye for detail and a dedicated attitude throughout my education, which I am keen to apply to the business world. My immediate aim is to apply and develop my intellect and IT programming skills, while acquiring the practical work experience. Morever, I've also been working on improving the functionality and quality of whatever I create - seeking new challenges every day. Furthermore, I am also able to communicate in Polish which I think even though situational, can be a great benefit for client-cooperation.</p>
+  
+  <!--Projects/Work -->
+  <hr class="line2"> 
+  <h2 id="work-title">Work</h2>
+  <h3><strong>Skills:</strong></h3>
+  <ul id="skills-list">
+    <li>HTML5</li>
+    <li>CSS3</li>
+    <li>JavaScript</li>
+    <li>jQuery</li>
+    <li>Ruby</li>
+    <li>PHP</li>
+    <li>Git</li>
+    <li>PhotoShop</li>
+    <li>Bootstrap</li>
+
+
+  </ul>
+  <h4>Bookmarker Application</h4>
+  <a href="#"><img src="https://image.ibb.co/fdWGkm/bookmarker_img.jpg" alt="bookmarker img" border="0" height="300" id="pic1" /></a>
+  <h4>Google Map with Pins</h4>
+  <a href="#"><img src="https://image.ibb.co/gkBoy6/googlemap_project_img.jpg" alt="googlemap project img" border="0" height="300" id="pic2" /></a>
+  
+  <!-- Placeholders for later project showcases
+  
+  <a href="#"><img src="https://image.ibb.co/jXRu6R/pojo_placeholder_2.png" alt="pojo_placeholder_2" border="0" height="300" width="545" id="pic3"></a>
+  <a href="#"><img src="https://image.ibb.co/jXRu6R/pojo_placeholder_2.png" alt="pojo_placeholder_2" border="0" height="300" width="545" id="pic4"></a>
+  <a href="#"><img src="https://image.ibb.co/jXRu6R/pojo_placeholder_2.png" alt="pojo_placeholder_2" border="0" height="300" width="545" id="pic5"></a> 
+  -->
+  
+</div>
+
+<!-- Contact -->
+<hr class="line 3">
+<div class="container">
+  <h2 id="contact-title">Contact</h2>
+  <div id="contact-container">
+  <p><strong>If you are interested in my work or have any questions, feel free to contact me on social media or send me an email below!</strong></p>
+  
+  <!-- Social Media -->
+    <ul class="social-icons text-center">
+      <li><a href="https://www.linkedin.com/in/david-szczesniak-81934b151/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+      <li><a href="https://github.com/Dedious"><i class="fa fa-git-square" aria-hidden="true"></i></a><li>
+      <li><a href="https://twitter.com/davido08031999"><i class="fa fa-twitter-square" aria-hidden="true"></i></a><li>
+      <li><a href="https://twitter.com/davido08031999"><i class="fa fa-free-code-camp" aria-hidden="true"></i></a><li>  
+    </ul>
+
+  <!-- Contact Form -->
+  <form action="" method="POST" enctype="multipart/form-data">
+    <input name="action" value="submit" type="hidden"> Your name:<br>
+    <input name="name" size="45" type="text"><br><br> Your email:<br>
+    <input name="email" size="45" type="text"><br><br> Your message:<br>
+    <textarea name="message" rows="20" cols="45">
+    </textarea><br>
+    <input value="Send email" type="submit" id="send-email">
+    </form>
+</div>
+<!-- Footer -->
+<br>
+<p>&copy 2017 David Szczesniak | All Rights Reserved</p>
+</div>
+
+<!-- Navbar script -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script>
+  $(function() {
+    var pull 		= $('#pull');
+      menu 		= $('nav ul');
+      menuHeight	= menu.height();
+
+    $(pull).on('click', function(e) {
+      e.preventDefault();
+      menu.slideToggle();
+    });
+
+    $(window).resize(function(){
+          var w = $(window).width();
+          if(w > 320 && menu.is(':hidden')) {
+            menu.removeAttr('style');
+          }
+      });
+  });
+</script>
+</body>
+</html>
