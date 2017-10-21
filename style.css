@@ -61,6 +61,7 @@ body {
 @media(max-width: 375px) {
     .header-overlay {
         height: 1050px;
+        z-index: 2;
     }
 }
 
@@ -448,9 +449,8 @@ nav {
         #contact-container {
             font-size: 12px;
             width: 320px;
-     
-
-        }
+            right: 15px;
+       }
     }
 
     /*
