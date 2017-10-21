@@ -7,7 +7,7 @@
 body {
     margin: 0;
     font-family:'Raleway', sans-serif;
-    font-size: 1rem;
+    font-size: 16px;
     line-height: 1.5;
     color: #fff;
     overflow-x: hidden;
@@ -106,6 +106,28 @@ body {
 @media(max-width: 480px) {
     .line1 {
         bottom: 50px;
+    }
+    
+}
+
+@media(max-width: 375px) {
+    .line1 {
+        bottom: 50px;
+    }
+    
+}
+
+/* Text resizing for smaller screens */
+@media(max-width: 375px) {
+    .container p {
+        font-size: 14px;
+    }
+    
+}
+
+@media(max-width: 320px) {
+    .container p {
+        font-size: 13px;
     }
     
 }
@@ -311,6 +333,12 @@ nav {
     }
 }
 
+ @media screen and (max-width: 320px) {
+    #pic1, #pic2, #pic3, #pic4, #pic5 {
+        height: 100px;
+    }
+}
+
     #about-title, #work-title, #contact-title {
         background: rgba(50,55,71,.25);
         border-radius: 3px;
@@ -348,6 +376,8 @@ nav {
      @media screen and (max-width: 375px) {
         #contact-container {
             right: 50px;
+            width: 300px;
+            font-size: 12px;
         }
     }
 
@@ -369,6 +399,12 @@ nav {
        border-radius: 3px;
        border: solid #fff;
    }
+
+@media screen and (max-width: 375px) {
+    #name-box, #email-box, #message-box {
+        width: 280px;
+    }
+}
 
    /* Social Media */ 
 
@@ -392,6 +428,12 @@ nav {
     width: 20px;
     color: #fff;
   }
+
+@media screen and (max-width: 375px) {
+    #name-box, #email-box, #message-box {
+        width: 15px;
+    }
+}
   
   .social-icons li:hover {
     transform: translateY(-4.5px);
