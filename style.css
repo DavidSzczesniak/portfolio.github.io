@@ -59,8 +59,11 @@ body {
 }
 
 @media(max-width: 375px) {
+    .header-overlay {
     height: 1050px;
-
+  }      
+    
+}
 .header-content {
     z-index: 4;
     position: relative;
@@ -350,7 +353,7 @@ nav {
     
      @media screen and (max-width: 375px) {
         #contact-container {
-            right: 25px;
+            right: 35px;
         }
     }
 
