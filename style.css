@@ -60,8 +60,7 @@ body {
 
 @media(max-width: 375px) {
     .header-overlay {
-        height: 1050px;
-        z-index: 2;
+        height: 1035px;
     }
 }
 
