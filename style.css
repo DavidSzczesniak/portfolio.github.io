@@ -58,6 +58,9 @@ body {
     width: 100%;
 }
 
+@media(max-width: 375px) {
+    height: 1050px;
+
 .header-content {
     z-index: 4;
     position: relative;
@@ -342,6 +345,12 @@ nav {
     @media screen and (max-width: 480px) {
         #contact-container {
             right: 10px;
+        }
+    }
+    
+     @media screen and (max-width: 375px) {
+        #contact-container {
+            right: 25px;
         }
     }
 
