@@ -58,7 +58,7 @@ body {
     width: 100%;
 }
 
-@media(max-width: 375px) {
+@media screen and (max-width: 375px) {
     .header-overlay {
     height: 1050px;
   }      
