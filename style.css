@@ -450,14 +450,14 @@ nav {
             font-size: 12px;
             width: 320px;
             right: 15px;
-            margin-left: -22px;
+            margin-left: -23px;
        }
     }
 
     
     @media screen and (max-width: 360px) {
         #contact-container {
-            right: 13px;
+            right: 12px;
 
 
         }
