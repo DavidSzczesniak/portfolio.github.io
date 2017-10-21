@@ -120,6 +120,7 @@ body {
 @media(max-width: 375px) {
     .container p {
         font-size: 13px;
+        z-index: 1;
     }
     
 }
@@ -348,7 +349,9 @@ nav {
     #about-title, #work-title, #contact-title {
         background: rgba(50,55,71,.25);
         border-radius: 3px;
+        z-index: 1;
     }
+
 
     /* Contact section */
     #contact-container {
@@ -432,14 +435,14 @@ nav {
 
    /* Adjusting contact area for mobile devices */
    
-   /*
+   
    @media screen and (max-width: 384px) {
         #contact-container {
            right: 15px;
 
         }
     }
-    */
+    
    
    @media screen and (max-width: 375px) {
         #contact-container {
