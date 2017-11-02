@@ -407,7 +407,7 @@ nav {
   }
   
   .contact form button{
-    background:rgb(50,55,71);;
+    background:rgb(50,55,71);
     border:0;
     width: 15%;
     padding: 7px;
@@ -423,6 +423,7 @@ nav {
   .contact form button:hover,.contact form button:focus{
     background: #656f91;
     outline:0;
+    transition: all ease-in-out 200ms;
   }
 
   .alert {
@@ -520,17 +521,25 @@ nav {
     }
 }
 
-  
-  .social-icons li:hover {
-    transform: translateY(-4.5px);
-      
-  }
-
   .fa-twitter-square {
       margin-left: 4px;
   }
 
   .fa-free-code-camp {
       margin-left: 4px;
+  }
+
+  .fa-linkedin-square {
+      margin-right: 4px;
+  }
+
+  #download-btn {
+      font-size: 20px;
+      text-decoration: none;
+  }
+
+  .fa-linkedin-square:hover, .fa-free-code-camp:hover, .fa-twitter-square:hover, .fa-git-square:hover {
+    color:rgb(108, 118, 148);
+    transition: all ease-in-out 200ms;
   }
 
