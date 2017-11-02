@@ -417,7 +417,7 @@ nav {
     color: #fff;
     min-width: 70px;
     margin-bottom: 10px;
-
+    cursor: pointer;
   }
   
   .contact form button:hover,.contact form button:focus{
