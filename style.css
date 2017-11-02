@@ -533,13 +533,24 @@ nav {
       margin-right: 4px;
   }
 
-  #download-btn {
+   #download-btn {
       font-size: 20px;
       text-decoration: none;
+      background:rgb(50,55,71);
+      width: 15%;
+      padding: 10px;
+      border: 2px solid #fff;
+      border-radius: 3px;
+      color: #fff;
+  }
+
+  #download-btn:hover {
+    background: #656f91;
+    transition: all ease-in-out 200ms;
   }
 
   .fa-linkedin-square:hover, .fa-free-code-camp:hover, .fa-twitter-square:hover, .fa-git-square:hover {
-    color:rgb(108, 118, 148);
+    color: #656f91;
     transition: all ease-in-out 200ms;
   }
 
