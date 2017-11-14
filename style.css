@@ -290,12 +290,12 @@ nav {
   
   
   /* Projects */
-    #pic1, #pic2 {
+    #pic1, #pic2, #pic3, #pic4 {
       border: solid white 2px;
   }
 
   /* Placed on last image for some air */
-    #pic2 {
+    #pic4 {
       margin-bottom: 20px;
   }
 
